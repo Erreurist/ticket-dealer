@@ -1,0 +1,12 @@
+# 依赖包（绝不能上传，体积巨大，别人用 npm install 重新生成）
+node_modules/
+
+# 本地打包产物（不用上传，GitHub Actions 会在云端自己运行 npm run build 重新生成）
+dist/
+
+# macOS 系统自动生成的隐藏文件
+.DS_Store
+
+# IDE 配置文件
+.idea/
+.vscode/
